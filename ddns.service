@@ -1,0 +1,6 @@
+[Unit]
+Description= ddns updater
+
+[Service]
+Type=oneshot
+ExecStart=/home/as/update_ipv6.sh

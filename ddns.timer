@@ -1,0 +1,9 @@
+[Unit]
+Description=ddns timer
+
+[Timer]
+OnUnitActiveSec=200s
+OnBootSec=200s
+
+[Install]
+WantedBy=timers.target
